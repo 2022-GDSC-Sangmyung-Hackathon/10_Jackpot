@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AddPostsActivity"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/img_btn"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@android:drawable/ic_input_add" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="212dp"
+        android:ems="10"
+        android:fontFamily="@font/regular"
+        android:hint="나도 그랬어요"
+        android:inputType="textMultiLine|textPersonName"
+        android:paddingHorizontal="20dp"
+        android:textColorHint="@color/material_dynamic_neutral90" />
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/regular"
+        android:text="저장" />
+</LinearLayout>
